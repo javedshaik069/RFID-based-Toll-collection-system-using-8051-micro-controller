@@ -130,10 +130,6 @@ void main()
 		// i=13 after coming out from loop
 		rfid[i]='\0';  //null character
 		
-		for(i=0;i<12;i++)
-		{
-		TxChar(rfid[i]);
-		}
 		
 		lcdm(1);
 		lcds("Your ID No.-");	
